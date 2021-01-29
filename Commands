@@ -1,0 +1,9 @@
+# Get info about container
+docker inspect cowsay
+
+# Transform container to the image
+docker commit cowsay test/cowsayimage
+
+# Show all list of docker image layers 
+docker history cowsay:latest
+
